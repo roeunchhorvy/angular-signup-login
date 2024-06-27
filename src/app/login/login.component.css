@@ -1,0 +1,146 @@
+/* form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  div {
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  } */
+   /* auth.component.css */
+
+   /* Import Google font - Poppins */
+/* Base styles */
+.wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form header button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.form header button:focus {
+  outline: none;
+}
+
+.form header button:hover {
+  text-decoration: underline;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form form .checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.form form .checkbox input {
+  margin-right: 10px;
+}
+
+.form form .checkbox label {
+  color: #666;
+}
+
+.form form a {
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.form form a:hover {
+  text-decoration: underline;
+}
+
+.form form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.wrapper.active .form.signup {
+  display: none;
+}
+
+.wrapper.active .form.login {
+  display: block;
+}
